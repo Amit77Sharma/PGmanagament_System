@@ -1,0 +1,40 @@
+.containerroom {
+  position: relative;
+  background-color: white;
+  width: 100px;
+  height: 130px;
+}
+
+.imageroom {
+  opacity: 1;
+  display: block;
+  width: 100px;
+  height: 130px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middleroom {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.containerroom:hover .imageroom {
+  opacity: 0.3;
+}
+
+.containerroom:hover .middleroom {
+  opacity: 1;
+}
+
+.textroom {
+  color: red;
+  font-size: 12px;
+  padding: 10px 30px;
+}

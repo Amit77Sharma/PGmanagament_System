@@ -1,0 +1,17 @@
+body{
+	font-family: cursive;
+}
+.roomandtable{
+  width:100%;
+   margin-top: 0px;
+   
+}
+.th1, .td1 {
+  border: 2px solid steelblue;
+  border-collapse: collapse;
+   padding: 10px;
+  text-align: left;
+ }
+
+
+
